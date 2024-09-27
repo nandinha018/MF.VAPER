@@ -1,0 +1,254 @@
+html, body {
+  background-color: #110100;
+  color: rgb(253,250,250);
+  margin:0;
+  overflow-x: hidden; 
+  font-family: "Nerko One", cursive;
+}
+.slider{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  height: 100vh;
+  width: 100vw;
+}
+.slide{
+  min-width: 100vw;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+}
+.principal{
+  background-image: url("fundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  align-items: flex-start;
+  display: flex;
+  width: 100%;
+  min-height: 10vh;
+  position: relative;
+  flex-direction: column;
+}
+
+.titulo{
+  margin-bottom: 1em;
+  width:100%;
+  max-width: 600px;
+  margin-left: 30px;
+  text-align: center;
+  font-size: 25px;
+  
+}
+
+.imagem{
+  height: 400px;
+  margin-left: 50px;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.botao{
+  background-color: #75082D;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width: 80vh;
+  margin-left: 50px;
+  font-family: "Ewert", serif;
+}
+
+.botao2{
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width: 80vh;
+  margin-left: 50px;
+  font-family: "Ewert", serif;
+}
+
+.aviso{
+  font-size: 15px;
+  color: grey;
+  margin-left: 250px;
+}
+
+.botao:hover{
+  background-color: rgb(236,74,102);
+  color: purple;
+}
+ 
+.botao2:hover{
+  background-color: rgb(243,76,105);
+  color: purple;
+}
+
+/* PÁGINA 2 */
+.menu{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.menuitem {
+  display: flex;
+  align-items: center;
+  background-color: rgb(252,252,252);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px grey;
+  overflow: hidden;
+}
+
+.menutitulo{
+text-align: center;
+font-size: 40px;
+margin-bottom: 20px;
+color: white;
+text-decoration: double;
+}
+
+.menuimagem{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.menuinfo{
+  padding: 20px;
+}
+
+.itemmenu{
+  font-size: 25px;
+  color: black
+}
+
+.descricao2{
+  font-size: 15px;
+  color: grey;
+  font-family: "Nerko One", cursive;
+  text-align: justify;
+}
+
+.preco{
+  color: rgb(226,118,118);
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*PÁGINA 3 */
+
+.titulo2{
+  font-size: 45px;
+  color:white;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: "Nerko One", cursive;
+}
+
+.imagem2{
+ width:100%;
+}
+
+.secundario{
+  align-items: center;
+  margin: 0 10em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top:60px;
+}
+
+.descricao{
+ font-family: "Nerko One", cursive;
+  text-align: center;
+  font-size:25px;
+}
+
+
+.titulo3{
+  font-weight:700;
+  font-size: 45px;
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+  
+}
+
+.dispositivos{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.dispositivos img{
+  height: 40px;
+  padding: 0 50px;
+}
+
+.item{
+  font-size:35px;
+  color: white;
+  padding: 0 50px;
+}
+
+.rodape{
+  text-align: center;
+  margin: 5em 3em;
+  
+}
+
+.lista, .rodapelista{
+  display: flex;
+  justify-content: center;
+  list-: none;
+  margin-top: 1em;
+}
+
+.listalink a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-left: 1em;
+}
+
+.listalink a:hover{
+  color: #EE5F90;
+}
+ 
+.listalink a:active{
+  color: #FA095B;
+}
+ 
+.rodapetexto{
+  margin: 1 em 0;
+  color: grey;
+  font-size: 20px
+}
+
+.logo2{
+  height: 200px;
+}
